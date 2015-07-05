@@ -1,0 +1,62 @@
+
+Nuggeta GameServer is:
+
+  * Fast
+  * Free
+  * Easy to use
+  * Community Supported
+
+
+Full documentation will be available soon at : http://developer.nuggeta.com/#!documentation
+
+
+
+# Runtime Requirements
+-----------------------
+
+	* JAVA JDK :
+		- install java Jdk 1.6 or greather : http://www.oracle.com/technetwork/java/javase/downloads/index.html
+		- set Environment variable JAVA_HOME point to the install directory. 
+	* MONGODB : 
+		- install mongoDB : http://www.mongodb.org/downloads , see install tutorial http://docs.mongodb.org/manual/tutorial/
+		- start mongodb
+
+
+
+
+
+# Run the GameServer
+---------------------
+
+	* For Windows :
+		- go to bin folder and run the start.bat 
+	* For Linux / MAC:
+		- go to bin folder and run the command 'sh init.sh start' 
+		
+			
+		
+		
+
+# Access the administration interface
+-------------------------------------
+
+	* open your browser to : http://localhost:9090
+		
+		
+		
+				
+		
+# Development Requirement
+-------------------------
+
+	* install Eclipse : http://www.eclipse.org/downloads
+	* import the GameServer project
+	* start develop your server logic !
+		
+	
+	
+
+# Contact us
+-------------------------
+ Forum: http://developer.nuggeta.com/#!forum
+ 

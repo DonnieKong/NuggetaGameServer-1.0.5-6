@@ -1,0 +1,35 @@
+2015-03-14 23:01:46,655 INFO [main] c.n.g.GameServer [SourceFile : 36] 
+		  ________                          _________                                
+		  /  _____/_____    _____   ____    /   _____/ ______________  __ ___________ 
+		 /   \  ___\__  \  /     \_/ __ \   \_____  \_/ __ \_  __ \  \/ // __ \_  __ \
+		 \    \_\  \/ __ \|  Y Y  \  ___/   /        \  ___/|  | \/\   /\  ___/|  | \/
+		  \______  (____  /__|_|  /\___  > /_______  /\___  >__|    \_/  \___  >__|   
+		         \/     \/      \/     \/          \/     \/                 \/       
+
+				 	Version : 1.0.5-6
+
+					(c) 2015 Nuggeta 
+
+
+2015-03-14 23:01:50,952 ERROR [main] c.n.d.v.i.m.f.MongoDBFactoryBean [SourceFile : 21] Failed to connect to mongo database at 127.0.0.1:27017
+2015-03-14 23:29:48,892 INFO [main] c.n.g.GameServer [SourceFile : 36] 
+		  ________                          _________                                
+		  /  _____/_____    _____   ____    /   _____/ ______________  __ ___________ 
+		 /   \  ___\__  \  /     \_/ __ \   \_____  \_/ __ \_  __ \  \/ // __ \_  __ \
+		 \    \_\  \/ __ \|  Y Y  \  ___/   /        \  ___/|  | \/\   /\  ___/|  | \/
+		  \______  (____  /__|_|  /\___  > /_______  /\___  >__|    \_/  \___  >__|   
+		         \/     \/      \/     \/          \/     \/                 \/       
+
+				 	Version : 1.0.5-6
+
+					(c) 2015 Nuggeta 
+
+
+2015-03-14 23:29:53,658 INFO [main] c.n.s.c.NettyServerConnector [SourceFile : 30] Player Socket Connector started on port 5010
+2015-03-14 23:29:53,727 INFO [main] c.n.s.c.NettyHttpServerConnector [SourceFile : 32] Player Http Connector started on port 5011
+2015-03-14 23:29:53,733 INFO [main] c.n.s.c.NettyServerConnector [SourceFile : 30] Admin Socket Connector started on port 5012
+2015-03-14 23:29:55,608 INFO [main] c.n.g.MyServer [MyServer.java : 27] MyServer Started
+2015-03-14 23:34:00,008 ERROR [qtp30936363-36] c.p.c.s.BootstrapServlet [BootstrapServlet.java : 161] Failed to load resource: /favicon.ico
+2015-03-14 23:34:00,046 ERROR [qtp30936363-38] c.p.c.s.BootstrapServlet [BootstrapServlet.java : 161] Failed to load resource: /favicon.ico
+2015-03-14 23:40:19,409 INFO [pool-2-thread-1] c.n.g.MyServer [MyServer.java : 82] onPlayerConnected [NPlayer --> _StoreId=55050d330f49fcd4a2536c15| _Id=| _Login=Anonymous | _Name=Anonymous | _Connected=true| _CreationDate=1.426394419263E12| _Active=false| _Lang=en_US| _Anonymous=true| ]
+2015-03-14 23:40:33,705 INFO [pool-2-thread-1] c.n.g.MyServer [MyServer.java : 32] Received Message [StopPlugConnectionRequest --> ] from Player [NPlayer --> _StoreId=55050d330f49fcd4a2536c15| _Id=| _Login=Anonymous | _Name=Anonymous | _Connected=true| _CreationDate=1.426394419263E12| _Active=false| _Lang=en_US| _Anonymous=true| ]

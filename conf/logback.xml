@@ -1,0 +1,39 @@
+<configuration>
+
+	<property name="LOG_FILE" value="./logs/game-server.log" />
+	<contextName>GAME-SERVER</contextName>
+		<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<!-- encoders are assigned the type ch.qos.logback.classic.encoder.PatternLayoutEncoder by default -->
+		<encoder>
+			<pattern>
+				%date{HH:mm:ss.SSS} [%contextName] %-5p [%c{0}] - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<file>${LOG_FILE}</file>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- rollover daily -->
+			<fileNamePattern>${LOG_FILE}-%d{yyyy-MM-dd}.%i.txt</fileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
+				<!-- or whenever the file size reaches 100MB -->
+				<maxFileSize>100MB</maxFileSize>
+			</timeBasedFileNamingAndTriggeringPolicy>
+			  <!-- keep 30 days' worth of history -->
+            <maxHistory>30</maxHistory>	
+		</rollingPolicy>
+		<encoder>
+			<pattern>
+				%date %level [%thread] %logger{10} [%file : %line] %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<logger name="com.nuggeta" level="INFO" />
+
+	<root level="ERROR">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="ROLLING" />
+	</root>
+</configuration>

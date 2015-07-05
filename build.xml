@@ -1,0 +1,15 @@
+<project name="NuggetaGameServer" basedir="." default="jar">
+	<target name="jar" description="jar">
+		<delete file="lib/myServer.jar" />
+
+		<mkdir dir="classes" />
+		<echo message="Compiling the java source files..." />
+		<javac destdir="classes" debug="on" failonerror="yes" includeantruntime="false">
+			<src path="src" />
+		</javac>
+
+		<jar destfile="lib/myServer.jar">
+			<zipfileset dir="classes/" />
+		</jar>
+	</target>
+</project>

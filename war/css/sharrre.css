@@ -1,0 +1,98 @@
+  .sharrre .box{
+	background: rgb(170,170,170); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(170,170,170,1) 0%, rgba(68,68,68,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(170,170,170,1)), color-stop(100%,rgba(68,68,68,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(170,170,170,1) 0%,rgba(68,68,68,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(170,170,170,1) 0%,rgba(68,68,68,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(170,170,170,1) 0%,rgba(68,68,68,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(170,170,170,1) 0%,rgba(68,68,68,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aaaaaa', endColorstr='#444444',GradientType=0 ); /* IE6-9 */
+    height:31px;
+    display:inline-block;
+    position:relative;
+    padding:0px 55px 0 8px;
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+    font-size:12px;
+    float:left;
+    clear:both;
+    overflow:hidden;
+    -webkit-transition:all 0.3s linear;
+    -moz-transition:all 0.3s linear;
+    -o-transition:all 0.3s linear;
+    transition:all 0.3s linear;
+    border:1px solid #CCC;
+  }
+  .sharrre .box img {
+  	width:25px;
+  	height:25px;
+  	margin-top:4px;
+  }
+  .sharrre .left{
+    line-height:31px;
+    display:block;
+    white-space:nowrap;
+    text-shadow:0px 1px 1px rgba(255,255,255,0.3);
+    color:#ffffff;
+    -webkit-transition:all 0.2s linear;
+    -moz-transition:all 0.2s linear;
+    -o-transition:all 0.2s linear;
+    transition:all 0.2s linear;
+    background-image:url('../images/social/share.png');
+    background-repeat:no-repeat;
+    padding-left:30px;
+    background-position-y: 3px;
+  }
+  .sharrre .middle{
+    position:absolute;
+    height:31px;
+    top:0px;
+    right:30px;
+    width:0px;
+    background:#63707e;
+    text-shadow:0px -1px 1px #363f49;
+    color:#fff;
+    white-space:nowrap;
+    text-align:left;
+    overflow:hidden;
+    -webkit-box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    -moz-box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    -webkit-transition:width 0.3s linear;
+    -moz-transition:width 0.3s linear;
+    -o-transition:width 0.3s linear;
+    transition:width 0.3s linear;
+  }
+  .sharrre .middle a{
+    color:#fff;
+    font-weight:bold;
+    padding:0 9px 0 9px;
+    text-align:center;
+    float:left;
+    line-height:31px;
+    -webkit-box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    -moz-box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+    box-shadow:-1px 0px 1px rgba(255,255,255,0.4), 1px 1px 2px rgba(0,0,0,0.2) inset;
+  }
+  .sharrre .right{
+    position:absolute;
+    right:0px;
+    top:0px;
+    height:100%;
+    width:45px;
+    text-align:center;
+    line-height:31px;
+    color:#000;
+    background:#fff;
+    font-size:18px;
+  }
+  .sharrre .box:hover{
+    padding-right:180px;
+  }
+  .sharrre .middle a:hover{
+    text-decoration:none;
+  }
+  .sharrre .box:hover .middle{
+    width:140px;
+  }

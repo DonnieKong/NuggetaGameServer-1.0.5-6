@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html itemscope="" itemtype="http://schema.org/Product" xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <title>Game Center</title>
+
+      <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	
+      <link rel="stylesheet" type="text/css" href="css/ponysdk.css">
+      <link rel="stylesheet" type="text/css" href="css/default-nuggeta.css">
+      <link rel="stylesheet" type="text/css" href="css/game-center.css">
+
+      <script type="text/javascript" src="js/jquery/jquery.min.js"></script>
+      <script type="text/javascript" src="js/game-center.js"></script>
+
+      <script type="text/javascript" src="ponyterminal/ponyterminal.nocache.js"></script>    
+   </head>
+   <body>
+
+      <div id="loading" style="margin:200px auto;width:200px;text-align:center;">Loading...</div>
+	<noscript>       
+		<div style="width: 22em; position: absolute; left: 50%; margin-left: -11em; color: red; background-color: white; border: 1px solid red; padding: 4px;">            
+			Your web browser must have JavaScript enabled in order for this application to display correctly.        
+		</div>
+	</noscript>
+			<script type="text/javascript">
+			var pony = null;
+			function onPonySDKModuleLoaded() {
+				pony = new ponysdk();
+				/*pony.registerCommunicationError(function(code, message) {
+					onCommunicationError(code, message);
+				});*/
+				pony.start();
+			}
+		</script>
+
+   </body>
+</html>
